@@ -128,6 +128,20 @@ int main() {
     //Calcular o Super poder 2
     Super_Poder2 = (float)População2 + Area2 + PIB2 + Pontos_Turisticos2 + PIB_per_Capita2 + (1.0 / Densidade_Populacional2);
 
+     //Comparações das cartas
+
+    printf("\n=== Comparação de Cartas ===\n");
+    printf("População: Carta 1 venceu (%d)\n", População1 > População2);
+    printf("Aréa: Carta 1 venceu (%d)\n", Area1 > Area2);
+    printf("PIB: Carta 1 venceu (%d)\n", PIB1 > PIB2);
+    printf("Pontos Turísticos: Carta 1 venceu (%d)\n", Pontos_Turisticos1 > Pontos_Turisticos2);
+    printf("Densidade Populacional: Carta 2 venceu(%d)\n", Densidade_Populacional1 < Densidade_Populacional2);
+    printf("PIB per cabita: Carta 1 venceu (%d)\n", PIB_per_Capita1 > PIB_per_Capita2);
+    printf("Super Poder: Carta 1 venceu (%d)\n", Super_Poder1 > Super_Poder2);
+    printf("\n====================\n");
+
+
+
 
 return 0;
 } 
